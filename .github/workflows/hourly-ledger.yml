@@ -33,6 +33,7 @@ jobs:
           git add data/hourly-ledger.json
           git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "chore: update hourly picks ledger"
+          git pull --rebase origin main
           git push
 
       - name: Ledger failed

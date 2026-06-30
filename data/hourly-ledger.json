@@ -697,5 +697,14 @@
       "peakQualityScore": 85
     }
   },
-  "posts": {}
+  "posts": {
+    "lastPotdPostAt": "2026-06-30T05:45:10.687Z",
+    "lastPotdPostId": "1ujgjta",
+    "postedForDate": "2026-06-30",
+    "pickIds": [
+      "model:WNBA_2026_54_NY_LV",
+      "model:SWC_2026_4_FRA_SWE",
+      "model:SWC_2026_4_MEX_ECU"
+    ]
+  }
 }

@@ -25,6 +25,7 @@ async function main() {
   loadEnv();
   const dryRun = process.argv.includes('--dry-run');
   const force = process.argv.includes('--force');
+  const bootstrap = process.argv.includes('--bootstrap');
   const now = new Date();
   const targetDayKey = etDateKey(now, DEFAULT_TIMEZONE);
 
@@ -42,6 +43,7 @@ async function main() {
   const picks = selectPotdPicks(ledger, {
     now,
     postedForDate: force ? null : ledger.posts?.postedForDate,
+    sourceDayKey: bootstrap ? targetDayKey : undefined,
   });
 
   if (!picks.length) {

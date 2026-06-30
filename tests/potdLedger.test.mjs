@@ -124,7 +124,8 @@ describe('formatPotdPost', () => {
       edge: 4.2,
     }];
     assert.match(formatPotdTitle(picks, { now: new Date('2026-06-30T16:00:00.000Z'), timeZone: TZ }), /Picks of the Day/);
-    const body = formatPotdBody(picks, { timeZone: TZ });
+    const body = formatPotdBody(picks, { now: new Date('2026-06-30T16:00:00.000Z'), timeZone: TZ });
+    assert.match(body, /Here's our compiled list of our top picks for today 6\/30\/2026 across nba\./);
     assert.match(body, /Pick: Lakers ML \+145/);
     assert.doesNotMatch(body, /siyfsports\.com/);
   });
@@ -133,7 +134,8 @@ describe('formatPotdPost', () => {
     const body = formatPotdBody([
       { sport: 'Tennis', pickText: 'Sonmez ML', sourceKind: 'daily_pick', peakQualityScore: 80, awayTeam: 'A', homeTeam: 'B' },
       { sport: 'NBA', pickText: 'Lakers ML', sourceKind: 'model_edge', edge: 4.2, awayTeam: 'Lakers', homeTeam: 'Celtics', startsAt: '2026-06-30T23:00:00.000Z' },
-    ], { timeZone: TZ });
+    ], { now: new Date('2026-06-30T16:00:00.000Z'), timeZone: TZ });
+    assert.match(body, /across tennis and nba\./);
     assert.match(body, /Verified community pick/);
     assert.match(body, /Model edge/);
   });

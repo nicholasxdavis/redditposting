@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-30T20:13:35.205Z",
+  "updatedAt": "2026-06-30T22:18:52.787Z",
   "picks": {
     "model:WNBA_2026_59_LV_IND": {
       "id": "model:WNBA_2026_59_LV_IND",
@@ -18,8 +18,8 @@
       "homeTeam": "Las Vegas",
       "oddsHint": "-110",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:WNBA_2026_57_LV_CHI": {
@@ -33,13 +33,13 @@
       "marketLabel": "Total",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 16.9533752954,
+      "edge": 17.1900488797,
       "awayTeam": "Chicago",
       "homeTeam": "Las Vegas",
-      "oddsHint": "-106",
+      "oddsHint": "-105",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:WNBA_2026_57_NY_MIN": {
@@ -58,8 +58,8 @@
       "homeTeam": "New York",
       "oddsHint": "+100",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:SWC_2026_4_ARG_CPV": {
@@ -78,8 +78,8 @@
       "homeTeam": "Argentina",
       "oddsHint": "+138",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:WNBA_2026_56_CONN_DAL": {
@@ -87,19 +87,19 @@
       "sourceKind": "model_edge",
       "sport": "WNBA",
       "event": "Dallas @ Connecticut",
-      "pickText": "Under 171.5",
+      "pickText": "Under 170.5",
       "startsAt": "2026-07-03T00:00:00Z",
       "marketType": "total",
       "marketLabel": "Total",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 15.6105281807,
+      "edge": 17.0326029399,
       "awayTeam": "Dallas",
       "homeTeam": "Connecticut",
-      "oddsHint": "-105",
+      "oddsHint": "+108",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:SWC_2026_4_POR_CRO": {
@@ -118,8 +118,8 @@
       "homeTeam": "Portugal",
       "oddsHint": "+150",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 87
     },
     "model:SWC_2026_4_BEL_SEN": {
@@ -151,15 +151,15 @@
       "startsAt": "2026-07-01T16:00:00Z",
       "marketType": "total",
       "marketLabel": "Total",
-      "qualityScore": 73,
+      "qualityScore": 70,
       "expertRoi": null,
-      "edge": 7.26995165,
+      "edge": 6.95632086,
       "awayTeam": "Congo DR",
       "homeTeam": "England",
       "oddsHint": "+100",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 8,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 9,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_158896_83397": {
@@ -167,17 +167,17 @@
       "sourceKind": "model_edge",
       "sport": "Tennis",
       "event": "Upcoming match",
-      "pickText": "home line 100",
+      "pickText": "Under 41.5",
       "startsAt": "2026-07-01T10:00:00Z",
-      "marketType": "line",
-      "marketLabel": "Line",
+      "marketType": "total",
+      "marketLabel": "Total",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 11.570000000000002,
-      "oddsHint": "+100",
+      "edge": 13.928148348673519,
+      "oddsHint": "-118",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_157456_254383": {
@@ -209,11 +209,11 @@
       "marketLabel": "Total",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 13.601746122917868,
+      "edge": 13.58174612291787,
       "oddsHint": "-135",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_673479_163504": {
@@ -222,16 +222,16 @@
       "sport": "Tennis",
       "event": "Upcoming match",
       "pickText": "away line 100",
-      "startsAt": "2026-07-01T11:10:00Z",
+      "startsAt": "2026-07-01T11:50:00Z",
       "marketType": "line",
       "marketLabel": "Line",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 12.483196088522897,
-      "oddsHint": "-106",
+      "edge": 11.683798203909134,
+      "oddsHint": "-112",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_122366_14882": {
@@ -243,14 +243,14 @@
       "startsAt": "2026-07-01T15:20:00Z",
       "marketType": "line",
       "marketLabel": "Line",
-      "qualityScore": 98,
+      "qualityScore": 100,
       "expertRoi": null,
-      "edge": 9.82462629569013,
+      "edge": 11.204626295690122,
       "oddsHint": "-120",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 9,
-      "peakQualityScore": 99
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 10,
+      "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_195800_722429": {
       "id": "model:TEN_2026_1_ATP_2555_195800_722429",
@@ -263,11 +263,11 @@
       "marketLabel": "Line",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 11.350887507066131,
-      "oddsHint": "-130",
+      "edge": 13.50814834867352,
+      "oddsHint": "-118",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:SWC_2026_4_MEX_ECU": {
@@ -306,8 +306,8 @@
       "homeTeam": "New York",
       "oddsHint": "+102",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:SWC_2026_4_FRA_SWE": {
@@ -321,13 +321,13 @@
       "marketLabel": "Total",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 13.1430916844,
+      "edge": 12.7073716044,
       "awayTeam": "Sweden",
       "homeTeam": "France",
       "oddsHint": "-125",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_14548_112783": {
@@ -344,8 +344,8 @@
       "edge": 13.020887507066137,
       "oddsHint": "-130",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_339377_128552": {
@@ -362,8 +362,8 @@
       "edge": 6.734626295690127,
       "oddsHint": "-120",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 9,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 10,
       "peakQualityScore": 81
     },
     "model:TEN_2026_1_ATP_2555_101101_399633": {
@@ -380,44 +380,8 @@
       "edge": 16.414626295690127,
       "oddsHint": "-120",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
-      "peakQualityScore": 100
-    },
-    "model:TEN_2026_1_ATP_2555_122368_39711": {
-      "id": "model:TEN_2026_1_ATP_2555_122368_39711",
-      "sourceKind": "model_edge",
-      "sport": "Tennis",
-      "event": "Upcoming match",
-      "pickText": "Under 42.5",
-      "startsAt": "2026-06-30T15:10:00Z",
-      "marketType": "total",
-      "marketLabel": "Total",
-      "qualityScore": 85,
-      "expertRoi": null,
-      "edge": 8.464626295690126,
-      "oddsHint": "-120",
-      "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
-      "peakQualityScore": 100
-    },
-    "model:TEN_2026_1_ATP_2555_829282_57163": {
-      "id": "model:TEN_2026_1_ATP_2555_829282_57163",
-      "sourceKind": "model_edge",
-      "sport": "Tennis",
-      "event": "Upcoming match",
-      "pickText": "away line 100",
-      "startsAt": "2026-06-30T15:05:00Z",
-      "marketType": "line",
-      "marketLabel": "Line",
-      "qualityScore": 100,
-      "expertRoi": null,
-      "edge": 11.7,
-      "oddsHint": "+100",
-      "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 100
     },
     "potd:1uj6cde:oulbz56": {
@@ -432,8 +396,8 @@
       "awayTeam": "Valentova",
       "homeTeam": "Pliskova",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 250
     },
     "potd:1uj6cde:oul8vhj": {
@@ -446,8 +410,8 @@
       "expertRoi": null,
       "edge": null,
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 102
     },
     "potd:1uj6cde:oul87wi": {
@@ -472,14 +436,14 @@
       "sport": "Soccer",
       "event": "Germany vs Paraguay",
       "pickText": "Germany vs Paraguay — Total Corners: Over 8.5 (9+ corners, regular time incl. stoppage) @ -143 — 2 units",
-      "qualityScore": 100,
+      "qualityScore": 101,
       "expertRoi": null,
       "edge": null,
       "awayTeam": "Germany",
       "homeTeam": "Paraguay",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 101
     },
     "potd:1ui9xdd:oue53do": {
@@ -488,15 +452,15 @@
       "sport": "Tennis",
       "event": "Ann Li vs Sonmez",
       "pickText": "Ann Li vs Sonmez - Sonmez ML @ 1.80🎾**",
-      "qualityScore": 222,
+      "qualityScore": 223,
       "expertRoi": null,
       "edge": null,
       "awayTeam": "Ann Li",
       "homeTeam": "Sonmez",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
-      "peakQualityScore": 222
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
+      "peakQualityScore": 223
     },
     "potd:1ui9xdd:oue46kh": {
       "id": "potd:1ui9xdd:oue46kh",
@@ -504,12 +468,12 @@
       "sport": "Soccer",
       "event": "Brazil-Japan BTTS @ 2.02",
       "pickText": "Brazil-Japan BTTS @ 2.02",
-      "qualityScore": 86,
+      "qualityScore": 84,
       "expertRoi": null,
       "edge": null,
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 10,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 11,
       "peakQualityScore": 87
     },
     "model:WNBA_2026_56_PHX_SEA": {
@@ -528,8 +492,8 @@
       "homeTeam": "Phoenix",
       "oddsHint": "+108",
       "firstSeenAt": "2026-06-30T09:54:10.041Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 97
     },
     "model:TEN_2026_1_ATP_2555_225050_125006": {
@@ -537,36 +501,18 @@
       "sourceKind": "model_edge",
       "sport": "Tennis",
       "event": "Upcoming match",
-      "pickText": "home line 100",
+      "pickText": "Under 31.5",
       "startsAt": "2026-07-01T12:30:00Z",
-      "marketType": "line",
-      "marketLabel": "Line",
-      "qualityScore": 100,
-      "expertRoi": null,
-      "edge": 10.980952380952381,
-      "oddsHint": "+110",
-      "firstSeenAt": "2026-06-30T09:54:10.041Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 5,
-      "peakQualityScore": 100
-    },
-    "model:TEN_2026_1_ATP_2555_739641_671637": {
-      "id": "model:TEN_2026_1_ATP_2555_739641_671637",
-      "sourceKind": "model_edge",
-      "sport": "Tennis",
-      "event": "Upcoming match",
-      "pickText": "Under 40.5",
-      "startsAt": "2026-06-30T15:10:00Z",
       "marketType": "total",
       "marketLabel": "Total",
-      "qualityScore": 79,
+      "qualityScore": 96,
       "expertRoi": null,
-      "edge": 7.904307196562832,
-      "oddsHint": "-116",
+      "edge": 9.64174612291786,
+      "oddsHint": "-135",
       "firstSeenAt": "2026-06-30T09:54:10.041Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 5,
-      "peakQualityScore": 82
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 6,
+      "peakQualityScore": 100
     },
     "potd:1uhfx1s:oua1vw9": {
       "id": "potd:1uhfx1s:oua1vw9",
@@ -574,14 +520,14 @@
       "sport": "Soccer",
       "event": "Canada vs South Africa",
       "pickText": "---",
-      "qualityScore": 32,
+      "qualityScore": 31,
       "expertRoi": null,
       "edge": null,
       "awayTeam": "Canada",
       "homeTeam": "South Africa",
       "firstSeenAt": "2026-06-30T09:54:10.041Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 5,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 6,
       "peakQualityScore": 33
     },
     "potd:1uhfx1s:ou9s8a3": {
@@ -590,12 +536,12 @@
       "sport": "Soccer",
       "event": "Reds ML 1.83",
       "pickText": "Reds ML 1.83",
-      "qualityScore": 87,
+      "qualityScore": 85,
       "expertRoi": null,
       "edge": null,
       "firstSeenAt": "2026-06-30T09:54:10.041Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 5,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 6,
       "peakQualityScore": 89
     },
     "potd:1uhfx1s:ou7lfyz": {
@@ -610,8 +556,8 @@
       "awayTeam": "Canada",
       "homeTeam": "South Africa",
       "firstSeenAt": "2026-06-30T09:54:10.041Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 5,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 6,
       "peakQualityScore": 111
     },
     "model:an-consensus:292408:fra -1.5": {
@@ -629,8 +575,8 @@
       "awayTeam": "Sweden",
       "homeTeam": "France",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 64
     },
     "an:548965334": {
@@ -649,8 +595,8 @@
       "homeTeam": "Blue Jays",
       "oddsHint": "+115",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 88
     },
     "an:548965225": {
@@ -669,8 +615,8 @@
       "homeTeam": "Yankees",
       "oddsHint": "+111",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 88
     },
     "an:548965152": {
@@ -689,8 +635,8 @@
       "homeTeam": "Orioles",
       "oddsHint": "-105",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 88
     },
     "an:548958911": {
@@ -709,8 +655,8 @@
       "homeTeam": "Royals",
       "oddsHint": "-105",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 23
     },
     "an:548958910": {
@@ -729,8 +675,8 @@
       "homeTeam": "Cubs",
       "oddsHint": "-115",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 23
     },
     "an:548956601": {
@@ -749,8 +695,8 @@
       "homeTeam": "Phillies\nPHI",
       "oddsHint": "-220",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 23
     },
     "an:548956602": {
@@ -769,8 +715,8 @@
       "homeTeam": "Yankees\nDET",
       "oddsHint": "+120",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 23
     },
     "an:548956603": {
@@ -789,8 +735,8 @@
       "homeTeam": "Braves\nSTL",
       "oddsHint": "+140",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 23
     },
     "an:548956604": {
@@ -809,8 +755,8 @@
       "homeTeam": "Mariners\nSEA",
       "oddsHint": "-170",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 23
     },
     "an:548954579": {
@@ -829,8 +775,8 @@
       "homeTeam": "Mexico",
       "oddsHint": "-240",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 34
     },
     "an:548954473": {
@@ -849,8 +795,8 @@
       "homeTeam": "France\nFRA",
       "oddsHint": "-125",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 34
     },
     "an:548954421": {
@@ -889,8 +835,8 @@
       "homeTeam": "Orioles\nCWS",
       "oddsHint": "+135",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 57
     },
     "an:548803140": {
@@ -929,8 +875,8 @@
       "homeTeam": "France",
       "oddsHint": "+210",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 35
     },
     "an:548785625": {
@@ -949,8 +895,8 @@
       "homeTeam": "Mexico",
       "oddsHint": "+200",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 35
     },
     "an:548785500": {
@@ -969,8 +915,8 @@
       "homeTeam": "France\nFRA",
       "oddsHint": "-108",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 35
     },
     "an:548753657": {
@@ -1029,8 +975,8 @@
       "homeTeam": "France\nFRA",
       "oddsHint": "-145",
       "firstSeenAt": "2026-06-30T12:16:48.060Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 4,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 5,
       "peakQualityScore": 35
     },
     "model:MLB_2026_98_ARI_SF": {
@@ -1042,16 +988,16 @@
       "startsAt": "2026-07-01T01:40:00Z",
       "marketType": "total",
       "marketLabel": "Total",
-      "qualityScore": 87,
+      "qualityScore": 91,
       "expertRoi": null,
-      "edge": 8.7329788024,
+      "edge": 9.0569788024,
       "awayTeam": "San Francisco",
       "homeTeam": "Arizona",
       "oddsHint": "+130",
       "firstSeenAt": "2026-06-30T15:36:15.479Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 3,
-      "peakQualityScore": 89
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 4,
+      "peakQualityScore": 91
     },
     "model:MLB_2026_98_TOR_NYM": {
       "id": "model:MLB_2026_98_TOR_NYM",
@@ -1062,15 +1008,15 @@
       "startsAt": "2026-06-30T23:07:00Z",
       "marketType": "total",
       "marketLabel": "Total",
-      "qualityScore": 69,
+      "qualityScore": 70,
       "expertRoi": null,
-      "edge": 6.9090408071,
+      "edge": 6.9899387718,
       "awayTeam": "NY Mets",
       "homeTeam": "Toronto",
-      "oddsHint": "-115",
+      "oddsHint": "-111",
       "firstSeenAt": "2026-06-30T15:36:15.479Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 3,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 4,
       "peakQualityScore": 71
     },
     "model:an-consensus:292406:both teams to score yes": {
@@ -1108,8 +1054,8 @@
       "homeTeam": "Diamondbacks\nARI",
       "oddsHint": "-108",
       "firstSeenAt": "2026-06-30T15:36:15.479Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 3,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 4,
       "peakQualityScore": 23
     },
     "an:548974463": {
@@ -1128,8 +1074,8 @@
       "homeTeam": "Yankees",
       "oddsHint": "-118",
       "firstSeenAt": "2026-06-30T15:36:15.479Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 3,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 4,
       "peakQualityScore": 23
     },
     "an:548974464": {
@@ -1148,8 +1094,8 @@
       "homeTeam": "Athletics",
       "oddsHint": "-120",
       "firstSeenAt": "2026-06-30T15:36:15.479Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 3,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 4,
       "peakQualityScore": 23
     },
     "model:SWC_2026_4_SUI_ALG": {
@@ -1201,16 +1147,16 @@
       "startsAt": "2026-07-01T00:10:00Z",
       "marketType": "total",
       "marketLabel": "Total",
-      "qualityScore": 66,
+      "qualityScore": 68,
       "expertRoi": null,
-      "edge": 6.5670869882,
+      "edge": 6.803937478,
       "awayTeam": "Minnesota",
       "homeTeam": "Houston",
-      "oddsHint": "+106",
+      "oddsHint": "+111",
       "firstSeenAt": "2026-06-30T18:05:02.906Z",
-      "lastSeenAt": "2026-06-30T18:05:02.906Z",
-      "seenCount": 1,
-      "peakQualityScore": 66
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
+      "peakQualityScore": 68
     },
     "model:MLB_2026_98_CLE_TEX": {
       "id": "model:MLB_2026_98_CLE_TEX",
@@ -1221,15 +1167,15 @@
       "startsAt": "2026-06-30T22:40:00Z",
       "marketType": "total",
       "marketLabel": "Total",
-      "qualityScore": 69,
+      "qualityScore": 68,
       "expertRoi": null,
-      "edge": 6.8820792365,
+      "edge": 6.8280792365,
       "awayTeam": "Texas",
       "homeTeam": "Cleveland",
       "oddsHint": "-106",
       "firstSeenAt": "2026-06-30T18:05:02.906Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 3,
       "peakQualityScore": 69
     },
     "an:548982058": {
@@ -1257,19 +1203,19 @@
       "sourceKind": "model_edge",
       "sport": "MLB",
       "event": "Cincinnati @ Milwaukee",
-      "pickText": "Over 8.5",
+      "pickText": "away line 100",
       "startsAt": "2026-07-02T00:10:00Z",
-      "marketType": "total",
-      "marketLabel": "Total",
+      "marketType": "line",
+      "marketLabel": "Line",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 10.7159829672,
+      "edge": 11.02562789,
       "awayTeam": "Cincinnati",
       "homeTeam": "Milwaukee",
-      "oddsHint": "+264",
+      "oddsHint": "+100",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 100
     },
     "model:an-consensus:291446:over 10.5": {
@@ -1287,8 +1233,8 @@
       "awayTeam": "White Sox",
       "homeTeam": "Orioles",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 64
     },
     "an:549014313": {
@@ -1307,8 +1253,8 @@
       "homeTeam": "Rockies",
       "oddsHint": "+100",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 35
     },
     "an:549014165": {
@@ -1327,8 +1273,8 @@
       "homeTeam": "Athletics\nUnder 5.5",
       "oddsHint": "+110",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549014006": {
@@ -1347,8 +1293,8 @@
       "homeTeam": "Mariners",
       "oddsHint": "+401",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549013920": {
@@ -1367,8 +1313,8 @@
       "homeTeam": "Mariners",
       "oddsHint": "+120",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549013739": {
@@ -1387,8 +1333,8 @@
       "homeTeam": "Rockies",
       "oddsHint": "+167",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549013494": {
@@ -1407,8 +1353,8 @@
       "homeTeam": "Astros\nUnder 4.5",
       "oddsHint": "-117",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549013345": {
@@ -1427,8 +1373,8 @@
       "homeTeam": "Astros",
       "oddsHint": "+115",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549013230": {
@@ -1447,8 +1393,8 @@
       "homeTeam": "Astros",
       "oddsHint": "+135",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549013028": {
@@ -1467,8 +1413,8 @@
       "homeTeam": "Cubs",
       "oddsHint": "+130",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549012779": {
@@ -1487,8 +1433,8 @@
       "homeTeam": "Cubs\nUnder 6.5",
       "oddsHint": "-125",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549012481": {
@@ -1507,8 +1453,8 @@
       "homeTeam": "Brewers",
       "oddsHint": "-102",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549012390": {
@@ -1527,8 +1473,8 @@
       "homeTeam": "Royals\nUnder 5.5",
       "oddsHint": "-130",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549012005": {
@@ -1547,8 +1493,8 @@
       "homeTeam": "Braves",
       "oddsHint": "-120",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549011835": {
@@ -1567,8 +1513,8 @@
       "homeTeam": "Blue Jays",
       "oddsHint": "+520",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549011656": {
@@ -1587,8 +1533,8 @@
       "homeTeam": "Red Sox",
       "oddsHint": "-122",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549011463": {
@@ -1607,8 +1553,8 @@
       "homeTeam": "Blue Jays\nUnder 4.5",
       "oddsHint": "-121",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549011284": {
@@ -1627,8 +1573,8 @@
       "homeTeam": "Yankees\nUnder 3.5",
       "oddsHint": "-120",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549011099": {
@@ -1647,8 +1593,8 @@
       "homeTeam": "Guardians",
       "oddsHint": "-105",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549010857": {
@@ -1667,8 +1613,8 @@
       "homeTeam": "Guardians",
       "oddsHint": "+115",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549010477": {
@@ -1687,8 +1633,8 @@
       "homeTeam": "Rockies\nO.Lopez o2.5 Hits",
       "oddsHint": "-130",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 35
     },
     "an:549010437": {
@@ -1707,8 +1653,8 @@
       "homeTeam": "Phillies",
       "oddsHint": "-125",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549010065": {
@@ -1727,8 +1673,8 @@
       "homeTeam": "Orioles",
       "oddsHint": "+529",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549009977": {
@@ -1747,8 +1693,8 @@
       "homeTeam": "Mariners\nUnder 0.5",
       "oddsHint": "-140",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 35
     },
     "an:549009966": {
@@ -1767,8 +1713,8 @@
       "homeTeam": "Orioles",
       "oddsHint": "-105",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 34
     },
     "an:549009696": {
@@ -1787,8 +1733,8 @@
       "homeTeam": "Athletics\nA.Pages o2.5 Hits",
       "oddsHint": "+110",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 35
     },
     "an:549009646": {
@@ -1807,8 +1753,8 @@
       "homeTeam": "Athletics\nLAD",
       "oddsHint": "-140",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 35
     },
     "an:549004234": {
@@ -1827,8 +1773,8 @@
       "homeTeam": "Mexico\nCorrect Score",
       "oddsHint": "+500",
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
-      "seenCount": 1,
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
       "peakQualityScore": 35
     },
     "potd:1uj6cde:ouno9eb": {
@@ -1837,13 +1783,152 @@
       "sport": "Soccer",
       "event": "Miami Marlins ML 1.74",
       "pickText": "Miami Marlins ML 1.74",
-      "qualityScore": 70,
+      "qualityScore": 72,
       "expertRoi": null,
       "edge": null,
       "firstSeenAt": "2026-06-30T20:13:35.205Z",
-      "lastSeenAt": "2026-06-30T20:13:35.205Z",
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 2,
+      "peakQualityScore": 72
+    },
+    "model:an-consensus:291448:c.sanchez o7.5 ks": {
+      "id": "model:an-consensus:291448:c.sanchez o7.5 ks",
+      "sourceKind": "model_edge",
+      "sport": "MLB",
+      "event": "Pirates @ Phillies",
+      "pickText": "C.Sanchez o7.5 Ks",
+      "startsAt": "2026-06-30T22:40:00.000Z",
+      "marketType": "custom",
+      "marketLabel": "custom",
+      "qualityScore": 64,
+      "expertRoi": null,
+      "edge": 4.4,
+      "awayTeam": "Pirates",
+      "homeTeam": "Phillies",
+      "firstSeenAt": "2026-06-30T22:18:52.787Z",
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
       "seenCount": 1,
-      "peakQualityScore": 70
+      "peakQualityScore": 64
+    },
+    "an:549021664": {
+      "id": "an:549021664",
+      "sourceKind": "verified_curated",
+      "sport": "MLB",
+      "event": "Twins @ Astros",
+      "pickText": "Under 8.5",
+      "startsAt": "2026-07-01T00:10:00.000Z",
+      "marketType": "total",
+      "marketLabel": "Total",
+      "qualityScore": 23,
+      "expertRoi": 1.01,
+      "edge": null,
+      "awayTeam": "Twins",
+      "homeTeam": "Astros",
+      "oddsHint": "-112",
+      "firstSeenAt": "2026-06-30T22:18:52.787Z",
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 1,
+      "peakQualityScore": 23
+    },
+    "an:549020012": {
+      "id": "an:549020012",
+      "sourceKind": "verified_curated",
+      "sport": "MLB",
+      "event": "Pirates vs Phillies\nPHI",
+      "pickText": "PHI -1.5",
+      "startsAt": "2026-06-30T22:40:00.000Z",
+      "marketType": "spread",
+      "marketLabel": "Spread",
+      "qualityScore": 35,
+      "expertRoi": 4.98,
+      "edge": null,
+      "awayTeam": "Pirates",
+      "homeTeam": "Phillies\nPHI",
+      "oddsHint": "-102",
+      "firstSeenAt": "2026-06-30T22:18:52.787Z",
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 1,
+      "peakQualityScore": 35
+    },
+    "an:549019347": {
+      "id": "an:549019347",
+      "sourceKind": "verified_curated",
+      "sport": "Soccer",
+      "event": "Sweden vs France\nCorrect Score",
+      "pickText": "@ +1000",
+      "startsAt": "2026-06-30T21:00:00.000Z",
+      "marketType": "custom",
+      "marketLabel": "custom",
+      "qualityScore": 35,
+      "expertRoi": 4.98,
+      "edge": null,
+      "awayTeam": "Sweden",
+      "homeTeam": "France\nCorrect Score",
+      "oddsHint": "+1000",
+      "firstSeenAt": "2026-06-30T22:18:52.787Z",
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 1,
+      "peakQualityScore": 35
+    },
+    "an:549016172": {
+      "id": "an:549016172",
+      "sourceKind": "verified_curated",
+      "sport": "MLB",
+      "event": "Pirates @ Phillies",
+      "pickText": "C.Sanchez o7.5 Ks",
+      "startsAt": "2026-06-30T22:40:00.000Z",
+      "marketType": "custom",
+      "marketLabel": "custom",
+      "qualityScore": 35,
+      "expertRoi": 4.98,
+      "edge": null,
+      "awayTeam": "Pirates",
+      "homeTeam": "Phillies",
+      "oddsHint": "-125",
+      "firstSeenAt": "2026-06-30T22:18:52.787Z",
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 1,
+      "peakQualityScore": 35
+    },
+    "an:549015133": {
+      "id": "an:549015133",
+      "sourceKind": "verified_curated",
+      "sport": "MLB",
+      "event": "Dodgers vs Athletics\nN.Kurtz o1.5 Hits",
+      "pickText": "N.Kurtz o1.5 Hits + Runs + RBIs",
+      "startsAt": "2026-07-01T01:40:00.000Z",
+      "marketType": "custom",
+      "marketLabel": "custom",
+      "qualityScore": 35,
+      "expertRoi": 4.98,
+      "edge": null,
+      "awayTeam": "Dodgers",
+      "homeTeam": "Athletics\nN.Kurtz o1.5 Hits",
+      "oddsHint": "-135",
+      "firstSeenAt": "2026-06-30T22:18:52.787Z",
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 1,
+      "peakQualityScore": 35
+    },
+    "an:549015087": {
+      "id": "an:549015087",
+      "sourceKind": "verified_curated",
+      "sport": "MLB",
+      "event": "Dodgers vs Athletics\nLAD",
+      "pickText": "LAD -168",
+      "startsAt": "2026-07-01T01:40:00.000Z",
+      "marketType": "ml_away",
+      "marketLabel": "ml_away",
+      "qualityScore": 35,
+      "expertRoi": 4.98,
+      "edge": null,
+      "awayTeam": "Dodgers",
+      "homeTeam": "Athletics\nLAD",
+      "oddsHint": "-168",
+      "firstSeenAt": "2026-06-30T22:18:52.787Z",
+      "lastSeenAt": "2026-06-30T22:18:52.787Z",
+      "seenCount": 1,
+      "peakQualityScore": 35
     }
   },
   "posts": {

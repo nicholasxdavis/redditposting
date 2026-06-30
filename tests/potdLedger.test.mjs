@@ -124,7 +124,9 @@ describe('formatPotdPost', () => {
       edge: 4.2,
     }];
     assert.match(formatPotdTitle(picks, { now: new Date('2026-06-30T16:00:00.000Z'), timeZone: TZ }), /Picks of the Day/);
-    assert.match(formatPotdBody(picks, { timeZone: TZ }), /best-picks/);
+    const body = formatPotdBody(picks, { timeZone: TZ });
+    assert.match(body, /Pick: Lakers ML \+145/);
+    assert.doesNotMatch(body, /siyfsports\.com/);
   });
 
   it('labels verified and model support lines', () => {

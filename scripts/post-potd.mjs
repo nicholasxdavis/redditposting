@@ -8,11 +8,12 @@ import {
   DEFAULT_TIMEZONE,
   emptyLedger,
   etDateKey,
+  isPotdPostWindow,
   parseLedger,
   selectPotdPicks,
 } from '../lib/potdLedger.mjs';
 import { assertRedditCredentials, redditCredentialsConfigured } from '../lib/redditAuth.mjs';
-import { findPotdFlairId, findRecentPotdPost, getLinkFlairs, getRedditMe, approveModeratorPost, submitSelfPost } from '../lib/redditSubmit.mjs';
+import { approveModeratorPost, editSelfPost, findPotdFlairId, findRecentPotdPost, getLinkFlairs, getRedditMe, submitSelfPost } from '../lib/redditSubmit.mjs';
 
 const LEDGER_PATH = repoPath('data', 'hourly-ledger.json');
 
@@ -26,8 +27,14 @@ async function main() {
   const dryRun = process.argv.includes('--dry-run');
   const force = process.argv.includes('--force');
   const bootstrap = process.argv.includes('--bootstrap');
+  const repair = process.argv.includes('--repair');
   const now = new Date();
   const targetDayKey = etDateKey(now, DEFAULT_TIMEZONE);
+
+  if (!dryRun && !force && !repair && !isPotdPostWindow(now)) {
+    console.log(`[potd] outside noon ET post window — use --force to post manually`);
+    return;
+  }
 
   if (!dryRun && !fs.existsSync(LEDGER_PATH)) {
     throw new Error(`Ledger not found: ${LEDGER_PATH}`);
@@ -35,15 +42,15 @@ async function main() {
 
   const ledger = loadLedger();
 
-  if (!force && ledger.posts?.postedForDate === targetDayKey) {
+  if (!force && !repair && ledger.posts?.postedForDate === targetDayKey) {
     console.log(`[potd] already posted for ${targetDayKey} — skip`);
     return;
   }
 
   const picks = selectPotdPicks(ledger, {
     now,
-    postedForDate: force ? null : ledger.posts?.postedForDate,
-    sourceDayKey: bootstrap ? targetDayKey : undefined,
+    postedForDate: (force || repair) ? null : ledger.posts?.postedForDate,
+    sourceDayKey: bootstrap || repair ? targetDayKey : undefined,
   });
 
   if (!picks.length) {
@@ -74,6 +81,23 @@ async function main() {
     throw new Error('GET /api/v1/me failed — token needs submit+identity scopes (npm run reddit:reauth)');
   }
   console.log(`[potd] posting as u/${me.name}`);
+
+  const repairPostId = repair ? ledger.posts?.lastPotdPostId : null;
+  if (repairPostId) {
+    const edited = await editSelfPost({ postId: repairPostId, text });
+    if (!edited.ok) {
+      throw new Error(`Edit failed: ${JSON.stringify(edited.errors)}`);
+    }
+    console.log(`[potd] repaired body on ${repairPostId}`);
+    ledger.posts = {
+      ...ledger.posts,
+      lastPotdPostAt: now.toISOString(),
+      postedForDate: targetDayKey,
+      pickIds: picks.map((p) => p.id),
+    };
+    writeJsonAtomic(LEDGER_PATH, ledger);
+    return;
+  }
 
   const existingPost = !force ? await findRecentPotdPost(POTD_SUBREDDIT, { targetDayKey }) : null;
   if (existingPost) {

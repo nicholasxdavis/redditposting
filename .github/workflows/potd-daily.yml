@@ -2,6 +2,7 @@ name: Daily POTD post
 
 on:
   schedule:
+    # 12:00 PM America/New_York — 16:00 UTC (EDT) / 17:00 UTC (EST)
     - cron: '0 16 * * *'
   workflow_dispatch:
 

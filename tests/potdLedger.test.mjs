@@ -7,8 +7,10 @@ import {
   etDateKey,
   mergePicksIntoLedger,
   parseLedger,
+  pickActiveOnEtDay,
   pruneLedger,
   selectPotdPicks,
+  yesterdayEtDateKey,
 } from '../lib/potdLedger.mjs';
 
 const TZ = 'America/New_York';
@@ -52,6 +54,24 @@ describe('potdLedger', () => {
     const ledger = emptyLedger();
     mergePicksIntoLedger(ledger, [makePick('today')], new Date('2026-06-29T20:00:00.000Z'));
     assert.equal(selectPotdPicks(ledger, { now: new Date('2026-06-30T16:00:00.000Z'), timeZone: TZ }).length, 1);
+  });
+
+  it('includes picks still merged after source day ends', () => {
+    const ledger = emptyLedger();
+    mergePicksIntoLedger(ledger, [makePick('carry')], new Date('2026-06-29T22:00:00.000Z'));
+    mergePicksIntoLedger(ledger, [makePick('carry')], new Date('2026-06-30T05:00:00.000Z'));
+    assert.equal(selectPotdPicks(ledger, { now: new Date('2026-06-30T16:00:00.000Z'), timeZone: TZ }).length, 1);
+  });
+
+  it('pickActiveOnEtDay uses first/last seen overlap', () => {
+    const entry = { firstSeenAt: '2026-06-28T12:00:00.000Z', lastSeenAt: '2026-06-30T05:00:00.000Z' };
+    assert.equal(pickActiveOnEtDay(entry, '2026-06-29', TZ), true);
+    assert.equal(pickActiveOnEtDay(entry, '2026-06-27', TZ), false);
+  });
+
+  it('yesterdayEtDateKey follows ET calendar', () => {
+    const now = new Date('2026-06-30T04:00:00.000Z');
+    assert.equal(yesterdayEtDateKey(now, TZ), '2026-06-29');
   });
 
   it('parseLedger tolerates partial rows', () => {

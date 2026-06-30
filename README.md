@@ -11,6 +11,8 @@ Hourly accumulation of [Siyf! best picks](https://www.siyfsports.com/best-picks)
 
 Posting failures do **not** block the hourly ledger. Ledger failures do **not** affect the Siyf! site or Appwrite scrape.
 
+**Selection rule:** picks active on yesterday's ET calendar day (`firstSeenAt`–`lastSeenAt` overlap) for games starting today ET that have not begun. First-day bootstrap may have no eligible pool until a full day of hourly merges completes.
+
 ## Setup
 
 1. Copy `.env.example` → `.env` (or rely on `../siyf-web/.development/secrets.local.env` for local runs)

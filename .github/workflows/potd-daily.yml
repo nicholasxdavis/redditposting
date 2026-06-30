@@ -5,6 +5,10 @@ on:
     - cron: '0 16 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: potd-daily
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -16,6 +20,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+
+      - name: Sync latest ledger
+        run: git pull --rebase origin main
 
       - name: Post to r/sportsinyourface
         id: post
@@ -34,8 +41,12 @@ jobs:
           git add data/hourly-ledger.json
           git diff --staged --quiet && echo "No ledger changes" && exit 0
           git commit -m "chore: record POTD Reddit post"
-          git pull --rebase origin main
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed, retrying..."
+            sleep $((attempt * 3))
+          done
+          exit 1
 
       - name: Post skipped or failed
         if: steps.post.outcome != 'success'

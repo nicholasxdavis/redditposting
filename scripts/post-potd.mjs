@@ -12,7 +12,7 @@ import {
   selectPotdPicks,
 } from '../lib/potdLedger.mjs';
 import { assertRedditCredentials, redditCredentialsConfigured } from '../lib/redditAuth.mjs';
-import { findPotdFlairId, getLinkFlairs, getRedditMe, submitSelfPost } from '../lib/redditSubmit.mjs';
+import { findPotdFlairId, findRecentPotdPost, getLinkFlairs, getRedditMe, submitSelfPost } from '../lib/redditSubmit.mjs';
 
 const LEDGER_PATH = repoPath('data', 'hourly-ledger.json');
 
@@ -72,6 +72,21 @@ async function main() {
     throw new Error('GET /api/v1/me failed — token needs submit+identity scopes (npm run reddit:reauth)');
   }
   console.log(`[potd] posting as u/${me.name}`);
+
+  const existingPost = !force ? await findRecentPotdPost(POTD_SUBREDDIT, { targetDayKey }) : null;
+  if (existingPost) {
+    console.log(`[potd] recent Reddit post found (${existingPost.id}) — healing ledger, skip submit`);
+    ledger.posts = {
+      ...ledger.posts,
+      lastPotdPostAt: now.toISOString(),
+      lastPotdPostId: existingPost.id,
+      postedForDate: targetDayKey,
+      pickIds: picks.map((p) => p.id),
+    };
+    writeJsonAtomic(LEDGER_PATH, ledger);
+    if (existingPost.url) console.log('[potd] url:', existingPost.url);
+    return;
+  }
 
   const flairId = findPotdFlairId(await getLinkFlairs(POTD_SUBREDDIT));
   if (flairId) console.log(`[potd] flair ${flairId}`);

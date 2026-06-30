@@ -12,18 +12,26 @@ async function fetchInternalFeed() {
   const internalKey = process.env.SIYF_INTERNAL_API_KEY?.trim();
   if (!internalKey) throw new Error('SIYF_INTERNAL_API_KEY is required');
 
-  const res = await fetch(`${apiUrl}/auth/internal/best-picks-feed`, {
-    headers: { Accept: 'application/json', 'X-Internal-Key': internalKey },
-    signal: AbortSignal.timeout(60_000),
-  });
+  const url = `${apiUrl}/auth/internal/best-picks-feed`;
+  const headers = { Accept: 'application/json', 'X-Internal-Key': internalKey };
+  let lastErr;
 
-  const data = await res.json().catch(() => ({}));
-  if (!res.ok) {
-    const detail = typeof data?.error === 'string' ? data.error : JSON.stringify(data).slice(0, 240);
-    throw new Error(`Feed fetch failed (${res.status}): ${detail}`);
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const res = await fetch(url, { headers, signal: AbortSignal.timeout(60_000) });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        const detail = typeof data?.error === 'string' ? data.error : JSON.stringify(data).slice(0, 240);
+        throw new Error(`Feed fetch failed (${res.status}): ${detail}`);
+      }
+      if (!Array.isArray(data.picks)) throw new Error('Internal feed response missing picks array');
+      return data;
+    } catch (err) {
+      lastErr = err;
+      if (attempt < 3) await new Promise((r) => setTimeout(r, attempt * 2000));
+    }
   }
-  if (!Array.isArray(data.picks)) throw new Error('Internal feed response missing picks array');
-  return data;
+  throw lastErr;
 }
 
 function loadLedger() {
@@ -43,7 +51,7 @@ async function main() {
   }
 
   const before = Object.keys(loadLedger().picks).length;
-  const ledger = loadLedger();
+  let ledger = loadLedger();
   mergePicksIntoLedger(ledger, feed.picks, now);
   pruneLedger(ledger, now);
   const after = Object.keys(ledger.picks).length;

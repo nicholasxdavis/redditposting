@@ -12,7 +12,7 @@ import {
   selectPotdPicks,
 } from '../lib/potdLedger.mjs';
 import { assertRedditCredentials, redditCredentialsConfigured } from '../lib/redditAuth.mjs';
-import { findPotdFlairId, findRecentPotdPost, getLinkFlairs, getRedditMe, submitSelfPost } from '../lib/redditSubmit.mjs';
+import { findPotdFlairId, findRecentPotdPost, getLinkFlairs, getRedditMe, approveModeratorPost, submitSelfPost } from '../lib/redditSubmit.mjs';
 
 const LEDGER_PATH = repoPath('data', 'hourly-ledger.json');
 
@@ -115,6 +115,10 @@ async function main() {
   if (!result.ok) {
     throw new Error(`Submit failed: ${JSON.stringify(result.errors)}`);
   }
+
+  const approval = await approveModeratorPost(result.postId);
+  if (approval.ok) console.log('[potd] mod-approved');
+  else console.warn('[potd] auto-approve skipped (need modposts scope or mod perms)');
 
   ledger.posts = {
     ...ledger.posts,

@@ -15,6 +15,7 @@
     "potd:post": "node scripts/post-potd.mjs",
     "potd:post:bootstrap": "node scripts/post-potd.mjs --bootstrap",
     "potd:update": "node scripts/update-potd.mjs --bootstrap",
+    "potd:simulate": "node scripts/simulate-potd.mjs --bootstrap",
     "reddit:smoke": "node scripts/smoke.mjs",
     "reddit:reauth": "node scripts/reauth.mjs",
     "secrets:push": "node scripts/push-github-secrets.mjs"

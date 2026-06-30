@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-30T05:16:47.397Z",
+  "updatedAt": "2026-06-30T05:20:27.820Z",
   "picks": {
     "model:WNBA_2026_59_LV_IND": {
       "id": "model:WNBA_2026_59_LV_IND",
@@ -18,8 +18,8 @@
       "homeTeam": "Las Vegas",
       "oddsHint": "-110",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:WNBA_2026_57_LV_CHI": {
@@ -38,8 +38,8 @@
       "homeTeam": "Las Vegas",
       "oddsHint": "-104",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:WNBA_2026_57_NY_MIN": {
@@ -58,8 +58,8 @@
       "homeTeam": "New York",
       "oddsHint": "+102",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 94
     },
     "model:SWC_2026_4_ARG_CPV": {
@@ -78,8 +78,8 @@
       "homeTeam": "Argentina",
       "oddsHint": "+685",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:WNBA_2026_56_CONN_DAL": {
@@ -98,8 +98,8 @@
       "homeTeam": "Connecticut",
       "oddsHint": "-112",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:SWC_2026_4_POR_CRO": {
@@ -118,8 +118,8 @@
       "homeTeam": "Portugal",
       "oddsHint": "+150",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 87
     },
     "model:SWC_2026_4_BEL_SEN": {
@@ -138,8 +138,8 @@
       "homeTeam": "Belgium",
       "oddsHint": "+218",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:SWC_2026_4_ENG_COD": {
@@ -158,8 +158,8 @@
       "homeTeam": "England",
       "oddsHint": "+425",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_158896_83397": {
@@ -176,8 +176,8 @@
       "edge": 11.114444444444437,
       "oddsHint": "-125",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_157456_254383": {
@@ -194,8 +194,8 @@
       "edge": 13.076553169198535,
       "oddsHint": "-110",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_63606_51345": {
@@ -212,8 +212,8 @@
       "edge": 12.506942823803968,
       "oddsHint": "-140",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_673479_163504": {
@@ -230,8 +230,8 @@
       "edge": 12.15892004153687,
       "oddsHint": "-108",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_122366_14882": {
@@ -248,8 +248,8 @@
       "edge": 9.851768669286919,
       "oddsHint": "-128",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 99
     },
     "model:TEN_2026_1_ATP_2555_195800_722429": {
@@ -266,8 +266,8 @@
       "edge": 9.716231386025209,
       "oddsHint": "-134",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 97
     },
     "model:SWC_2026_4_MEX_ECU": {
@@ -286,8 +286,8 @@
       "homeTeam": "Mexico",
       "oddsHint": "+181",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 78
     },
     "model:WNBA_2026_54_NY_LV": {
@@ -306,8 +306,8 @@
       "homeTeam": "New York",
       "oddsHint": "+102",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:SWC_2026_4_FRA_SWE": {
@@ -321,13 +321,13 @@
       "marketLabel": "Total",
       "qualityScore": 100,
       "expertRoi": null,
-      "edge": 10.5656131744,
+      "edge": 10.7959515444,
       "awayTeam": "Sweden",
       "homeTeam": "France",
       "oddsHint": "-125",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_14548_112783": {
@@ -344,8 +344,8 @@
       "edge": 12.744444444444447,
       "oddsHint": "-125",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_339377_128552": {
@@ -362,8 +362,8 @@
       "edge": 8.01462629569013,
       "oddsHint": "-120",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 80
     },
     "model:TEN_2026_1_ATP_2555_101101_399633": {
@@ -380,8 +380,8 @@
       "edge": 16.364626295690133,
       "oddsHint": "-120",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_122368_39711": {
@@ -398,8 +398,8 @@
       "edge": 9.781600407747204,
       "oddsHint": "-104",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 98
     },
     "model:TEN_2026_1_ATP_2555_829282_57163": {
@@ -416,8 +416,8 @@
       "edge": 13.85631067961165,
       "oddsHint": "+106",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_WTA_2559_466689_186312": {
@@ -434,8 +434,8 @@
       "edge": 14.716553169198543,
       "oddsHint": "-110",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_136042_352776": {
@@ -452,8 +452,8 @@
       "edge": 8.720887507066132,
       "oddsHint": "-130",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 87
     },
     "model:TEN_2026_1_ATP_2555_136042_39234": {
@@ -470,8 +470,8 @@
       "edge": 9.264444444444441,
       "oddsHint": "-125",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 93
     },
     "model:TEN_2026_1_ATP_2555_94485_418213": {
@@ -488,8 +488,8 @@
       "edge": 9.210887507066134,
       "oddsHint": "-130",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 92
     },
     "model:TEN_2026_1_ATP_2555_90080_111837": {
@@ -506,8 +506,8 @@
       "edge": 17.38655316919854,
       "oddsHint": "-110",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_276563_808628": {
@@ -524,8 +524,8 @@
       "edge": 16.871746122917862,
       "oddsHint": "-135",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_ATP_2555_47975_450283": {
@@ -542,8 +542,8 @@
       "edge": 20.134949494949495,
       "oddsHint": "-102",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:TEN_2026_1_WTA_2559_281189_67743": {
@@ -560,8 +560,8 @@
       "edge": 11.08770780856424,
       "oddsHint": "-170",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 100
     },
     "model:MLB_2026_97_ARI_SF": {
@@ -580,8 +580,8 @@
       "homeTeam": "Arizona",
       "oddsHint": "+125",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 87
     },
     "model:SWC_2026_4_NED_MAR": {
@@ -600,8 +600,8 @@
       "homeTeam": "Netherlands",
       "oddsHint": "+173",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 82
     },
     "potd:1uj6cde:oulbz56": {
@@ -616,8 +616,8 @@
       "awayTeam": "Valentova",
       "homeTeam": "Pliskova",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 112
     },
     "potd:1uj6cde:oul8vhj": {
@@ -630,8 +630,8 @@
       "expertRoi": null,
       "edge": null,
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 45
     },
     "potd:1uj6cde:oul87wi": {
@@ -646,8 +646,8 @@
       "awayTeam": "Brasil",
       "homeTeam": "Japan",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 26
     },
     "potd:1ui9xdd:oue9z7b": {
@@ -662,8 +662,8 @@
       "awayTeam": "Germany",
       "homeTeam": "Paraguay",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 99
     },
     "potd:1ui9xdd:oue53do": {
@@ -678,8 +678,8 @@
       "awayTeam": "Ann Li",
       "homeTeam": "Sonmez",
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 222
     },
     "potd:1ui9xdd:oue46kh": {
@@ -692,8 +692,8 @@
       "expertRoi": null,
       "edge": null,
       "firstSeenAt": "2026-06-30T05:11:57.387Z",
-      "lastSeenAt": "2026-06-30T05:16:47.397Z",
-      "seenCount": 2,
+      "lastSeenAt": "2026-06-30T05:20:27.820Z",
+      "seenCount": 3,
       "peakQualityScore": 85
     }
   },

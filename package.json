@@ -1,0 +1,20 @@
+{
+  "name": "siyf-redditposting",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Hourly Siyf! picks ledger + daily POTD posts to r/sportsinyourface",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "ledger:update": "node scripts/update-ledger.mjs",
+    "ledger:dry-run": "node scripts/update-ledger.mjs --dry-run",
+    "potd:dry-run": "node scripts/post-potd.mjs --dry-run",
+    "potd:post": "node scripts/post-potd.mjs",
+    "reddit:smoke": "node scripts/smoke.mjs",
+    "reddit:reauth": "node scripts/reauth.mjs",
+    "secrets:push": "node scripts/push-github-secrets.mjs"
+  }
+}

@@ -702,9 +702,12 @@
     "lastPotdPostId": "1ujgjta",
     "postedForDate": "2026-06-30",
     "pickIds": [
-      "model:WNBA_2026_54_NY_LV",
+      "potd:1ui9xdd:oue53do",
+      "potd:1uj6cde:oulbz56",
       "model:SWC_2026_4_FRA_SWE",
+      "model:WNBA_2026_54_NY_LV",
       "model:SWC_2026_4_MEX_ECU"
-    ]
+    ],
+    "lastPotdUpdatedAt": "2026-06-30T05:49:18.464Z"
   }
 }

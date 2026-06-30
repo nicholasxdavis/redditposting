@@ -85,6 +85,27 @@ describe('potdLedger', () => {
       > computeRankScore({ seenCount: 1, peakQualityScore: 10, edge: 1, sourceKind: 'daily_pick', id: 'a' }),
     );
   });
+
+  it('reserves verified picks alongside model edges', () => {
+    const ledger = emptyLedger();
+    const now = new Date('2026-06-30T16:00:00.000Z');
+    mergePicksIntoLedger(ledger, [makePick('model-a')], now);
+    mergePicksIntoLedger(ledger, [{
+      id: 'potd:1',
+      sourceKind: 'daily_pick',
+      qualityScore: 200,
+      parsed: {
+        sport: 'Tennis',
+        event: 'Ann Li vs Sonmez',
+        pickText: 'Sonmez ML @ 1.80',
+        awayTeam: 'Ann Li',
+        homeTeam: 'Sonmez',
+      },
+    }], now);
+    const selected = selectPotdPicks(ledger, { now, timeZone: TZ, sourceDayKey: '2026-06-30' });
+    assert.ok(selected.some((p) => p.sourceKind === 'daily_pick'));
+    assert.ok(selected.some((p) => p.sourceKind === 'model_edge'));
+  });
 });
 
 describe('formatPotdPost', () => {
@@ -104,5 +125,14 @@ describe('formatPotdPost', () => {
     }];
     assert.match(formatPotdTitle(picks, { now: new Date('2026-06-30T16:00:00.000Z'), timeZone: TZ }), /Picks of the Day/);
     assert.match(formatPotdBody(picks, { timeZone: TZ }), /best-picks/);
+  });
+
+  it('labels verified and model support lines', () => {
+    const body = formatPotdBody([
+      { sport: 'Tennis', pickText: 'Sonmez ML', sourceKind: 'daily_pick', peakQualityScore: 80, awayTeam: 'A', homeTeam: 'B' },
+      { sport: 'NBA', pickText: 'Lakers ML', sourceKind: 'model_edge', edge: 4.2, awayTeam: 'Lakers', homeTeam: 'Celtics', startsAt: '2026-06-30T23:00:00.000Z' },
+    ], { timeZone: TZ });
+    assert.match(body, /Verified community pick/);
+    assert.match(body, /Model edge/);
   });
 });
